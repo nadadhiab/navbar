@@ -1,0 +1,139 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    background-color: azure;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap:30px
+
+}
+button{
+    color: black;
+    background-color: aliceblue;
+    
+
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 200vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgba(222, 184, 135, 0.69);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.PAGES {
+    display: inline-block;
+    position: relative;
+}
+
+.PAGES-CONTENT {
+    display: none;
+    position: absolute;
+}
+
+.PAGES:hover .PAGES-CONTENT {
+    display: block;
+}
+
+h2 {
+    color: brown
+}
+
+.Get {
+    background-color: brown;
+    color: aliceblue;
+    height: 40px;
+    border: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(220, 220, 220, 0.171);
+}
+
+.houme {
+    color: brown;
+}
+.ket {
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    font-size: 30px;
+    border: none;
+}
+
+.Read-More {
+    background-color: rgb(165, 42, 42);
+    color: aliceblue;
+}
+
+.PAGES-CONTENT {
+    background-color: rgba(222, 184, 135, 0.378);
+}
+
+.ket {
+    background-image: url(./asset/22.jpg);
+    height: 800px;
+    color: aliceblue;
+    object-fit: cover;
+}
+main{
+    display: flex;
+    font-size: 150%;
+    margin-top: 20px;
+    background-color: rgba(220, 220, 220, 0.337);
+    
+}
+main section >div:nth-child(2),main section > div:nth-child(3){
+    display: flex;
+    gap: 30px;
+    
+}
+main section i{
+    color: burlywood;
+}*/
+
